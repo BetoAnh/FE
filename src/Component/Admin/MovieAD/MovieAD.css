@@ -1,0 +1,17 @@
+
+.thanhbar ::-webkit-scrollbar {
+  width: 5px; /* Chiều rộng của thanh cuộn */
+  background-color: transparent;
+}
+
+.thanhbar ::-webkit-scrollbar-track {
+  background: transparent; /* Màu nền của thanh cuộn */
+}
+
+.thanhbar ::-webkit-scrollbar-thumb {
+  background: #555; /* Màu của "nút kéo" thanh cuộn */
+}
+
+.thanhbar ::-webkit-scrollbar-thumb:hover {
+  background: #13191C; /* Màu của "nút kéo" khi di chuột hover */
+}

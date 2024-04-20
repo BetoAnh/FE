@@ -1,0 +1,25 @@
+.notification {
+    ul {
+      list-style-type: none;
+      padding-left: 40px;
+      flex-direction: column;
+    }
+  
+    li {
+      font-size: 30px;
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 10px;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 8px;
+        height: 8px;
+        background-color: white;
+        border-radius: 50%;
+      }
+    }
+  }

@@ -1,0 +1,28 @@
+.sidebar {
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  
+  color:white
+}
+
+.nav li:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav li span {
+  text-decoration: none;
+}
+
+
+.active {
+  border:2px solid #40babd;
+  border-right: 0;
+}

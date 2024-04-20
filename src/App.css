@@ -1,0 +1,8 @@
+.swal2-shown {
+    overflow: unset !important;
+    padding-right: 0px !important;
+}
+
+body {
+    overflow-x: hidden; 
+}

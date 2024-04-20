@@ -1,0 +1,28 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+  }
+  
+  .nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    padding: 10px;
+  }
+  
+  .nav li a {
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .nav li a.active {
+    border-left: 3px solid blue;
+    font-weight: bold;
+  }

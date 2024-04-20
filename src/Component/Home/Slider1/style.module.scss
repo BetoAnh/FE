@@ -1,0 +1,17 @@
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #A5A5A3; 
+  opacity: 60%;
+  cursor: pointer;
+  position: relative;
+  top:-50px;
+  left: 280px;
+}
+
+.dot.active {
+  background-color: red ;
+}
+
+
