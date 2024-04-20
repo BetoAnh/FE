@@ -86,7 +86,7 @@
         animation-fill-mode: both;
     }
 }
-/**/
+
 .play-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);

@@ -55,36 +55,6 @@
 
 }
 
-// .submenu {
-//     display: none;
-//     position: absolute;
-//     top: 70%;
-//     left: 15%;
-
-//     ul {
-//         display: grid;
-//         grid-template-columns: repeat(3, 1fr);
-//         flex-direction: row;
-//         min-width: 430px;
-//         white-space: nowrap;
-//     }
-
-//     ul li {
-//         padding: 15px;
-//     }
-
-//     ul li:hover {
-//         flex: 1;
-//         background-color: #B5E745;
-//     }
-
-//     ul li a {
-//         display: inline-block;
-//         max-width: 130px;
-//         overflow: hidden;
-//         text-overflow: ellipsis;
-//     }
-// }
 
 .submenu.inactive {
     opacity: 0;
