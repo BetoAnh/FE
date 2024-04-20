@@ -1,4 +1,4 @@
-import React, { useEffect, useState,useRef } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../../Header&Footer/Header/Header";
 import Footer from "../../Header&Footer/Footer/Footer";
 import { useNavigate } from "react-router-dom";
@@ -7,10 +7,8 @@ import { RiAdminFill } from "react-icons/ri";
 import styles from "./style.module.scss";
 import axios from "axios";
 import Profile from "./ProfileCON/Profile";
-import Test3 from "../../Test/Test3";
 import Cookies from "js-cookie";
 import SiderBar from "../../Admin/SiderBar/SiderBar";
-import Page2 from "./Page2/Page2";
 import "./Profile.css";
 import DonateHistory from "./DonateHistory/DonateHistory";
 import Follow from "../Follow/Follow";
