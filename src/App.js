@@ -60,26 +60,17 @@ function App() {
         >
           <Routes>
             <Route path="/" element={<Home />} /> 
-            {/* <Route path="/" element={<Test3 />} />      KHÔNG DÙNG THÌ DẬP */}
             <Route path="*" element={<Error404 />} />
             <Route path="/Home" element={<Home />} />
-            {/* <Route path="/Hometest" element={<Hometest />} /> */}
             <Route path="/Login" element={<Login />} />
             <Route path="/not-found" element={<Error404 />} />
             <Route path="/Profile" element={<ProfileCHA />} />
-            {/* <Route path="/Profile" element={<Profile />} /> */}
             <Route path="/ExPage" element={<ExPage />} />
             <Route path="/EX" element={<EX />} />
             <Route path="/Hacking" element={<Hacking />} />
-            {/* <Route path="/Slider" element={<Slider />} /> */}
-            {/* <Route path="/Righter" element={<Righter />} /> */}
-            {/* <Route path="/Slider1" element={<Righter />} /> */}
             <Route path="/Donate" element={<Donate />} />
             <Route path="/Follow" element={<Follow />} />
-            <Route path="/Test1" element={<Test1 />} />
-            <Route path="/Test2" element={<Test2 />} />
             <Route path="/Page2" element={<Page2 />} />
-            <Route path="/Test" element={<Test />} />
             <Route path="/AdminPage" element={<SiderBar />} />
             <Route path="/UserAD" element={<UserAD />} />
             <Route path="/phim-moi" element={<NewMovie />} />
